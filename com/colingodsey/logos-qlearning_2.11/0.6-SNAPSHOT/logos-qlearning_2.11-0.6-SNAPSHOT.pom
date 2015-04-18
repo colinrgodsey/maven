@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.colingodsey</groupId>
+    <artifactId>logos-qlearning_2.11</artifactId>
+    <packaging>jar</packaging>
+    <description>logos-qlearning</description>
+    <version>0.6-SNAPSHOT</version>
+    <name>logos-qlearning</name>
+    <organization>
+        <name>com.colingodsey</name>
+    </organization>
+    <url>https://github.com/colinrgodsey/logos</url>
+    <licenses>
+        <license>
+            <name></name>
+            <url></url>
+        </license>
+    </licenses>
+    <scm>
+        <url>git://github.com/colinrgodsey/logos.git</url>
+        <connection>scm:git://github.com/colinrgodsey/logos.git</connection>
+    </scm>
+    <developers>
+        <developer>
+            <id>colinrgodsey</id>
+            <name>Colin Godsey</name>
+            <url>https://github.com/colinrgodsey/</url>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.colingodsey</groupId>
+            <artifactId>logos-collections_2.11</artifactId>
+            <version>0.6-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lihaoyi</groupId>
+            <artifactId>utest_2.11</artifactId>
+            <version>0.3.0</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
